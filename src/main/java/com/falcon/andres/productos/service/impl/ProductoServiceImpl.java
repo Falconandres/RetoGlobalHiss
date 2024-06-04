@@ -6,9 +6,6 @@ import com.falcon.andres.productos.repository.ProductoRepository;
 import com.falcon.andres.productos.service.ProductoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
-
-import java.rmi.RemoteException;
 
 @Service
 public class ProductoServiceImpl implements ProductoService {

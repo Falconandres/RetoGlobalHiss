@@ -4,16 +4,12 @@ import com.falcon.andres.productos.dto.ProductoRequestDto;
 import com.falcon.andres.productos.dto.ProductoResponseDto;
 import com.falcon.andres.productos.entity.Producto;
 import com.falcon.andres.productos.repository.ProductoRepository;
-import org.hibernate.HibernateException;
-import org.hibernate.engine.jdbc.spi.SqlExceptionHelper;
 import org.springframework.stereotype.Repository;
 
 import javax.persistence.EntityManager;
 import javax.persistence.ParameterMode;
 import javax.persistence.StoredProcedureQuery;
 import java.math.BigDecimal;
-import java.rmi.RemoteException;
-import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
